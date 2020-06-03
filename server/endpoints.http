@@ -9,14 +9,16 @@ Host: localhost:3333
 Content-Type: application/json
 
 {
-  "name": "Mercado Ribeiro",
-  "email": "ribeiro@contato.com",
-  "whatsapp": "41998765432",
-  "latitude": -87.1543,
-  "longitude": -56.432754,
-  "city": "Curitiba",
+  "name": "Mercado Rony",
+  "email": "rony@contato.com",
+  "whatsapp": "41998451597",
+  "latitude": -45.11234,
+  "longitude": -86.235,
+  "city": "Sao Jose dos Pinhais",
   "uf": "PR",
   "items": [
+    1,
+    2,
     6
   ]
 }
