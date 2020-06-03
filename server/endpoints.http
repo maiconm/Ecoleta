@@ -3,3 +3,22 @@ GET /items HTTP/1.1
 Host: localhost:3333
 Content-Type: application/json
 
+### Creat collect point
+POST /points HTTP/1.1
+Host: localhost:3333
+Content-Type: application/json
+
+{
+  "name": "Mercado Condor",
+  "email": "joe@gmail.com",
+  "whatsapp": "47999999999",
+  "latitude": -33.7777,
+  "longitude": -23.76213,
+  "city": "Curitiba",
+  "uf": "PR",
+  "items": [
+    1,
+    2,
+    6
+  ]
+}
